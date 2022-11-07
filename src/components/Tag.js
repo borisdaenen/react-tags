@@ -47,7 +47,7 @@ const Tag = (props) => {
       className={ClassNames('tag-wrapper', classNames.tag, className)}
       style={{
         opacity,
-        cursor: canDrag(props) ? 'move' : 'auto',
+        cursor: canDrag(props) ? 'pointer' : 'auto',
       }}
       onClick={props.onTagClicked}
       onTouchStart={props.onTagClicked}>
